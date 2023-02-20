@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@400;700&family=Raleway:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('images/image1.jpg');
+    background-repeat: no-repeat;
+}
+.logo-section{
+    display: inline-block;
+}
+.logo-section img{
+    width: 150px;
+    position: absolute;
+    padding: 10px 5px;
+}
+.navbar{
+    overflow: auto;
+}
+.navbar ul{
+    margin-left: 35vw;
+}
+.navbar li{
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    padding:25px 20px;
+    font-size: 1.2vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+#member{
+    color: white;
+    background-color: red;
+}
+.head-section{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.head-section h1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+}
+.head-section hr{
+    width: 60px;
+    height: 3px;
+    margin-top: 11px;
+    position: absolute;
+    background-color: rgb(255, 98, 0);
+    border: none;
+}
+.head-section p{
+    color: white;
+    font-size: 1.5vw;
+    display: inline-block;
+    margin-left: 73px;
+    color: rgb(255, 98, 0);
+    font-family: 'Bebas Neue', cursive;
+}
+.head-section button{
+    border: none;
+    background-color: red;
+    font-size: 1vw;
+    padding: 20px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.second-section{
+    background-color: white;
+    margin-top: 400px;
+    height: 900px;
+}
+.image-section{
+    display: inline-block;
+}
+.image-section img{
+    width: 500px;
+    margin-top: 180px;
+    margin-left: 150px;
+    position: absolute;
+}
+.about-section hr{
+    width: 60px;
+    height: 3px;
+    margin-left: 700px;
+    margin-top: 8px;
+    position: absolute;
+    background-color: rgb(255, 98, 0);
+    border: none;
+}
+.about-section #about{
+    margin-top: 200px;
+    margin-left: 770px;
+    color: rgb(255, 98, 0);
+}
+.about-section h1{
+    margin-left: 700px;
+    margin-top: 30px;
+    font-size: 3vw;
+    color: rgb(15, 24, 61);
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.about-section p{
+    margin-left: 700px;
+    margin-top: 50px;
+    font-size: 1.3vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+.about-section #book{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+}
+.about-section button{
+    border: none;
+    background-color: red;
+    font-size: 1vw;
+    padding: 20px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 700px;
+    margin-top: 40px;
+}
