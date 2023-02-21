@@ -83,6 +83,7 @@ body{
     margin-top: 180px;
     margin-left: 150px;
     position: absolute;
+    box-shadow: 10px 10px 20px black;
 }
 .about-section hr{
     width: 60px;
@@ -126,4 +127,121 @@ body{
     font-family: 'Bebas Neue', cursive;
     margin-left: 700px;
     margin-top: 40px;
+}
+.third-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('images/image3.jpg');
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+.third-section hr{
+    width:70px;
+    height: 3px;
+    background-color: rgb(255, 98, 0);
+    border: none;
+    position: absolute;
+    margin-top: 125px;
+    margin-left:150px;
+}
+.third-section p{
+    color: white;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 120px;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 98, 0);
+}
+.third-section h1{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 150px;
+}
+.third-section button{
+    border: none;
+    background-color: red;
+    font-size: 1vw;
+    color: white;
+    padding: 15px 30px;
+    font-family: 'Bebas Neue', cursive;
+    position:absolute;
+    margin-top: 270px;
+    margin-left: 80vw;
+}
+.card-section .card-1{
+    background-color: white;
+    width:22vw;
+    height: 50vh;
+    margin-top: 400px;
+    margin-left: 150px;
+    position: absolute;
+}
+.card-1 img{
+    margin-top: 60px;
+    margin-left:145px;
+    width: 50px;
+}
+.card-1 h2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+.card-1 span{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+.card-section .card-2{
+    background-color: white;
+    width:22vw;
+    height: 50vh;
+    margin-top: 400px;
+    margin-left: 600px;
+    position: absolute;
+}
+.card-2 img{
+    margin-top: 60px;
+    margin-left:145px;
+    width: 50px;
+}
+.card-2 h2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+.card-2 span{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+.card-section .card-3{
+    background-color: white;
+    width:22vw;
+    height: 50vh;
+    margin-top: 400px;
+    margin-left: 1050px;
+    position: absolute;
+}
+.card-3 img{
+    margin-top: 60px;
+    margin-left:145px;
+    width: 50px;
+}
+.card-3 h2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+.card-3 span{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
 }
