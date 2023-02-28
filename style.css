@@ -60,10 +60,10 @@ body {
     margin-left: 0px;
   }
 }
-.head-section hr {
+.head-section hr{
   width: 60px;
   height: 3px;
-  margin-top: 11px;
+  margin-top: 30px;
   position: absolute;
   background-color: rgb(255, 98, 0);
   border: none;
@@ -103,7 +103,7 @@ body {
   width: 60px;
   height: 3px;
   margin-left: 650px;
-  margin-top: 10px;
+  margin-top: 30px;
   position: absolute;
   background-color: rgb(255, 98, 0);
   border: none;
@@ -138,7 +138,7 @@ body {
   padding: 20px;
   color: white;
   font-family: "Bebas Neue", cursive;
-  margin-left: 700px;
+  margin-left: 650px;
   margin-top: 40px;
 }
 .third-section {
@@ -153,7 +153,7 @@ body {
   background-color: rgb(255, 98, 0);
   border: none;
   position: absolute;
-  margin-top: 125px;
+  margin-top: 145px;
   margin-left: 150px;
 }
 .third-section p {
@@ -335,4 +335,146 @@ body {
   position: absolute;
   margin-top: 390px;
   margin-left: 285px;
+}
+.offer-section{
+  height: 30vh;
+  background-color: rgb(27, 27, 85);
+}
+.offer-section h1{
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  padding-top: 70px;
+  margin-left: 200px;
+  position: absolute;
+}
+.offer-section button{
+  margin-left:1100px;
+  margin-top: 100px;
+  background-color: red;
+  color: whitesmoke;
+  padding:10px 20px;
+  border: none;
+  font-size: 1.2rem;
+  font-family: "Bebas Neue", cursive;
+}
+.form-section{
+  height: 100vh;
+  background-color: white;
+}
+.form-image img{
+  width:480px;
+  position: absolute;
+  margin-top: 50px;
+  /* display: none; */
+  margin-left: 50px;
+}
+.form-section hr{
+  width: 70px;
+  height: 3px;
+  background-color: rgb(255, 98, 0);
+  border: none;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 600px;
+}
+.form-section p{
+  padding-left: 680px;
+  padding-top: 76px;
+  font-size: 1.7rem;
+  color: rgb(255, 98, 0);
+  font-family: "Raleway", sans-serif;
+
+}
+.form-section h2{
+  position: absolute;
+  margin-left: 600px; 
+  margin-top:20px;
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(15, 24, 61);
+}
+.form-section form{
+  padding-top: 140px;
+  padding-left: 600px;
+}
+.form-section input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin: 30px;
+}
+.form-section input[type="text"]{
+  font-size: 1.5rem;
+}
+.form-section input[type="email"]{
+  font-size: 1.5rem;
+}
+.form-section select{
+  border-right: none;
+  border-left:none;
+  border-top: none;
+  font-size: 1.5rem;
+  margin-left: 30px;
+  width: 295px;
+}
+.form-section button{
+  color: white;
+  background-color: red;
+  padding: 20px 20px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 27px;
+}
+.form-section textarea{
+  width: 500px;
+  height: 10vh;
+  margin-left: 27px;
+}
+footer{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("images/image9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+footer .section-1{
+  padding-top: 150px;
+  color: white;
+  padding-left: 150px;
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
+}
+.section h1,p{
+  padding-top: 20px;
+}
+footer .section-2{
+  padding-top: 150px;
+  color: white;
+  padding-left: 150px;
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
+}
+.section h1,p{
+  padding-top: 20px;
+}
+footer .section-3{
+  padding-top: 150px;
+  color: white;
+  padding-left: 150px;
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
+}
+.section h1,p{
+  padding-top: 20px;
+}
+footer .section-4{
+  padding-left: 1100px;
+  padding-top: 140px;
+  position: absolute;
+}
+.section-4 p{
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 30px;
 }
